@@ -39,7 +39,7 @@
         @endif
     </div>
     @endif
-    <div class="container">
+    <div class="container mt-5">
         <form action="/search" method="POST" role="search">
             {{ csrf_field() }}
             <div class="input-group">
